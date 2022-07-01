@@ -11,6 +11,7 @@ import java.math.BigDecimal;
 //class going to run on startup
 //commandlinerunner will run everytime the context startup
 
+//@Component will bring this file into spring bean
 @Component
 public class BeerLoader implements CommandLineRunner {
 
